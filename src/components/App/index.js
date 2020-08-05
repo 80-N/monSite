@@ -2,16 +2,22 @@
 import React from 'react';
 
 // == Import
-import Counter from 'src/containers/Counter';
-import reactLogo from './react-logo.svg';
+import Nav from 'src/components/Nav';
+import Page from 'src/components/Page';
+import Home from 'src/components/Home';
 import './styles.css';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <h1>Composant : App</h1>
-    <Counter />
+    <Nav />
+
+    <Page>
+      <Home />
+    </Page>
+    {/* <Page>
+      <Drawing />
+    </Page> */}
   </div>
 );
 

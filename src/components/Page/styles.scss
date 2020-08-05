@@ -1,0 +1,14 @@
+@use 'src/styles/vars';
+
+.page {
+  margin-left: 205px;
+  &__title {
+    font-size: 2em;
+    font-weight: bold;
+    padding: vars.$gutter * 2;
+  }
+  &__content {
+    padding: vars.$gutter;
+    background-color: white;
+  }
+}
