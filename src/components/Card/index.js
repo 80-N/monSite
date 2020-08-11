@@ -1,14 +1,14 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import './styles.scss';
 
-const Card = ({ image, title, description }) => (
+const Card = ({ img, title, description }) => (
   <div className="card">
     <img
       className="card__image"
-      src={image}
+      src={img}
       alt={title}
     />
     <div className="card__content">
@@ -18,13 +18,18 @@ const Card = ({ image, title, description }) => (
       <div className="card__desc">
         {description}
       </div>
-      <a className="card__link">Agrandir l'image</a>
+      <Link
+        to="/drawing"
+        className="card__link"
+      >
+        Agrandir l'image
+      </Link>
     </div>
   </div>
 );
 
 Card.propTypes = {
-  image: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };

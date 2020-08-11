@@ -9,6 +9,7 @@ import Nav from 'src/components/Nav';
 import Page from 'src/components/Page';
 import Home from 'src/components/Home';
 import drawings from 'src/data';
+// eslint-disable-next-line import/no-unresolved
 import Drawing from 'src/components/Drawing';
 import './styles.css';
 

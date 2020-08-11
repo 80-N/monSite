@@ -15,7 +15,7 @@ const Nav = ({ drawings }) => (
     exact
     >
       Accueil
-      </NavLink>
+    </NavLink>
     {drawings.map(({ id, title }) => (
       <NavLink
       key={id} 

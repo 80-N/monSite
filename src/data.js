@@ -5,7 +5,7 @@ export default [
     title: 'Couverture album jeunesse',
     category: 'ILLUSTRATIONS',
     description: "Couverture de mon album jeunesse YAALOMAAG, le génie des Eaux. Ed. L'Harmattan 2012.",
-    img: 'https://lh3.googleusercontent.com/yNZGSQuDxmQbZzOmypt1Z8-mHPcZCYsE2u7kFc-PcRZXK8gsQr24P0ORV3OTLTA5tVldjhae7GxN26THuK6Esax70mYBO4_HJOFoIzZslba08xyk3IBSdEJ74cqyivuofUlRQODZ1qri9LOkDbD-YlGgKcorPe8rYmzYeEO6KQeGQVc1Q7gpOPIuTzR-tRUqQW2Bf4MMaJ8-abm-oTZ8mSrc1Hwbgz1V6AuoUM4JEbOSIO7CHA1SgzzRcGFIOzcx0GlF_m6c2uHHJW8Q9Mua9v-6PhA5mX8CIGdpmlBRMvN6u9BAMuzgNWoaQssPc3tqM6l3AsK16oizthQLg-BgEZlqhLA2Ww9olUVyz7qwZFOt2GTtzFoDhI1K_FyRd5MqPHDrJW5OiiJyrEjCaamhawx8auHu00LxjJfI6LJ4KZDwE87ZHXLziAm8CoTweTjQ7ViE64PrWqt9uy732UZCszQOf4HXsfG8TWh4QYYAaZDzt5sQ12nDE8xjuDGQer-bVzpFKtz5VCtTMxEh27KghEg0lW_X_27EpHekKD-h0Q-7OCpijM4kVp-xCLmcDXLlo84izIKXLt2Qe6Fj6CPUMBQ7ZzGdHBkZGsNCdpelLQ2mWPmTXd3GCQJ0m2OFq74wPu1hHlHvpJ905QaHP4QsPOUn1C1W4Vd-Bl5KhyNS7vEfEkZke-AVLeL78lVU=w1360-h990-no?authuser=0',
+    img: 'https://photos.google.com/album/AF1QipMWdkSApNIXGYMsnKKRSFoDIw1f4bDJQ8AvFN6I/photo/AF1QipMrSjYLXgJbHajhMf17rfqkPuURsP6LZDTOfnVg',
   },
   {
     id: 9876,
@@ -26,7 +26,7 @@ export default [
     title: 'Homme au puits',
     category: 'ILLUSTRATIONS',
     description: "Page intérieur d'une bande dessinée en noir et blanc.",
-    img: 'https://lh3.googleusercontent.com/C8cHz1HcyBWaZmJ7WYB9aHPszD8u3zQ7-sxYPgNYAHZtAENUs2Ng46pYx-0ITpTGpysIdurTjRRmNBMkNOCZlEkHtkxMRG9jKOlYXiGW8CmFH6W5DQfB6jgjvDvd-xa-gnpfMDn5aNj513rWd6IoRB20FC4QjlX4cG3xHeuErohN-gSVGOxKzl3vUpx2vd0Qjtmy7g1m056ZU2L3Lq3HPc-Lx_pKO38ArATPrdbjCOWHe-L2mjQ1p3-d-1avretYPnaJeGPYipsI1vX20dl0uphqFkt5LGc8VFYuxnX68Lwbh_LfSFgB_wSSsR52QZBWjmfZqEuwxzlqz78r7NuWu92I1_jyavI93BeRHhuSU70GleBhxnGX5O0762CwR9vPvVQ7PGKuhRirMITgeYjLXJ3JLPsHTeXC-sFK4vrkdTVkUl3rIb2k9YrFuwNVqxC74j6WsfKBVLJVseIZQ5rTd23gLnR3fq0HAxycslWRkm1WlRql9RzsCj8WtEWhISpieo3zbjksgsm8bW214-RsEBqCnk3gBNx2r3Hmbi48EZMqir2NyPw-3IW9sioqs6G1aPLVHZwtz6cFmRP_ce3lbEIc4KMItcabRSt94E-cCcVxc6meEEVK9M-OxMR2rGi1c02Dng0D1bLgroiaoTYWFyGlOv6t4-jeopbxK2xER2y5MxBaUvFsnXzah-_P=w190-h179-no?authuser=0',
+    img: 'https://lh3.googleusercontent.com/ndcGaHFxeOLbrIYwSp_xrtt_qawi9ScOhcqtGdvo-nPBAPvqjTYwjD_S8gg0cG42eTGvptSSBSWuYhUOVlYuL8R-JWmJX4N8FVj5hrhOiPUPW-sjytfbdl5Gkah_0soZ0c6G1xaASdC4E6xzFmTOY-w9lMTVh1SYEUpevPlBfS4todlnKvCCXqNPyyN6Q6BatOoGPcWlEpHBpVtKRA_NrR6URUd2rsRp1ucjjbQCfwg0ZLTCYWSQByMBgfi9sVbLRXJ8MnQMVCaWosP3DllZ3u7YqFvr2pCTsrzDKZzEPioydxfTUNn_4tFjG1ZSsEyEsEXY7GZSCNMS3R0O5gi_1i80dhBREceI9gsp5CrGREKfuUw--6clbtBRT_Ey6LKMnjA__MrL06Zb2B-MctgSoGbScvGih6KOV49aambElzv2y_9sTm2EmiwhLHe1vIiw71FKdCzhR7Bfmln5svg2GE5kY_K0JYlbh3-aq3krG_-W2fLSWzPiHfMa22Uv5zmFauAJC0HO1nbrhUDDfXW6QfIF-_uw89WBGRnb2w0JWAL4fhkKlG2f8wO3fX1VagQPBR2BtJgKlsdm9lkDS9beh38JN88LzsBxRwAn3DBAXcm4pe5ViiaCp8-ZtbJCSlHIZdKPcc-w2mOi6bm8jgI_gh-FzD0f1IeN33eiaJLa7615WOSxH2HO_33DPWku=w1360-h990-no?authuser=0',
   },
   {
     id: 4578,
