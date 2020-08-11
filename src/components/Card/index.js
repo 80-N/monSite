@@ -4,23 +4,29 @@ import PropTypes from 'prop-types';
 
 import './styles.scss';
 
-const Card = () => (
+const Card = ({ image, title, description }) => (
   <div className="card">
     <img
       className="card__image"
-      src="https://photos.google.com/album/AF1QipMWdkSApNIXGYMsnKKRSFoDIw1f4bDJQ8AvFN6I/photo/AF1QipNtgPJ0KhV_JQJ5qF0xrHR4nBAa1sOwwxRHZJXF" alt="Calao et papayer"/>
+      src={image}
+      alt={title}
+    />
     <div className="card__content">
       <div className="card__title">
-        Titre de l'illustration'
+        {title}
       </div>
       <div className="card__desc">
-        Lorem ipsum dolor sit.
+        {description}
       </div>
-      <a className="card__link">Lien</a>
+      <a className="card__link">Agrandir l'image</a>
     </div>
   </div>
 );
 
-Card.propTypes = {};
+Card.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default Card;

@@ -4,20 +4,23 @@ import Card from 'src/components/Card';
 
 import './styles.scss';
 
-const Home = () => (
+const Home = ({ drawings }) => (
   <div className="home">
     <h2 className="home__title">Bienvenue sur ma page d'illustrations'</h2>
     <div className="home__content">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {drawings.map((drawing) => (
+        <Card key={drawing.id} {...drawing} />
+      ))}
     </div>
   </div>
 );
 
-Home.propTypes = {};
+Home.propTypes = {
+  drawings: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
+};
 
 export default Home;
