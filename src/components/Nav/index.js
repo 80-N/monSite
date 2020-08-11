@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
-
+import { getSlugFromTitle } from 'src/selectors';
 import './styles.scss';
 
 const Nav = ({ drawings }) => (
@@ -20,7 +20,7 @@ const Nav = ({ drawings }) => (
       <NavLink
       key={id} 
       className="menu__link"
-        to="/drawing"
+        to={`/drawing/${getSlugFromTitle(title, { lower: true })}`}
         activeClassName="menu__link--active"
         exact
       >

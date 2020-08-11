@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Drawing from 'src/components/Drawing';
 
 const mapStateToProps = (state) => ({
-  drawing: state.drawings.list[0],
+  drawing: state.drawings.list[1],
 });
 
 const mapDispatchToProps = {};

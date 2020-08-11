@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { getSlugFromTitle } from 'src/selectors';
 
 import './styles.scss';
 
@@ -19,7 +20,7 @@ const Card = ({ img, title, description }) => (
         {description}
       </div>
       <Link
-        to="/drawing"
+        to={`/drawing/${getSlugFromTitle(title)}`}
         className="card__link"
       >
         Agrandir l'image
