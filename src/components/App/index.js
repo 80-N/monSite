@@ -5,26 +5,25 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 // == Import
-import Nav from 'src/components/Nav';
+import Nav from 'src/containers/Nav';
 import Page from 'src/components/Page';
-import Home from 'src/components/Home';
-import drawings from 'src/data';
+import Home from 'src/containers/Home';
 // eslint-disable-next-line import/no-unresolved
-import Drawing from 'src/components/Drawing';
+import Drawing from 'src/containers/Drawing';
 import './styles.css';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <Nav drawings={drawings} />
+    <Nav />
     <Route exact path="/">
       <Page>
-        <Home drawings={drawings} />
+        <Home />
       </Page>
     </Route>
     <Route exact path="/drawing">
     <Page>
-      <Drawing drawing={drawings[1]} />
+      <Drawing />
     </Page>
     </Route>
   </div>
