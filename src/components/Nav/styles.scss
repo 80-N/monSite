@@ -4,10 +4,15 @@
 
 .menu {
   position: fixed;
-  left: 0;
-  top: 0;
-  width: 200px;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 180px;
+  margin-top: 80px;
+  max-width: 90vw;
+  min-height: 80px;
+  font-weight: 3em;
+  color:rgb(83, 82, 82);
   background-color: color.scale(vars.$color-grey, $lightness: 50%);
   &__link {
     display: block;

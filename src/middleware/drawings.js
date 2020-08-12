@@ -12,7 +12,8 @@ export default (store) => (next) => (action) => {
           console.log(response);
 
           store.dispatch(saveDrawings(response.data));
-        });
+        })
+        .catch((error) => console.log('Une erreur est survenue.', error));
 
       break;
     default:

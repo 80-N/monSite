@@ -1,14 +1,21 @@
 @use 'src/styles/vars';
 
 .page {
-  margin-left: 205px;
+  margin-left: 0px;
   &__title {
     font-size: 2em;
     font-weight: bold;
     padding: vars.$gutter * 2;
   }
   &__content {
+    margin-top: 80px;
     padding: vars.$gutter;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -14,7 +14,7 @@ import Drawing from 'src/containers/Drawing';
 import './styles.css';
 
 // == Composant
-const App = ({ getDrawings }) => {
+const App = ({ getDrawings, loading, error }) => {
   useEffect(() => {
     getDrawings();
   }, []);
@@ -26,7 +26,8 @@ const App = ({ getDrawings }) => {
         <Page>
           <Home />
         </Page>
-      </Route>
+        </Route>
+        {!loading && (
       <Route
         exact
         path="/drawing/:slug"
@@ -36,12 +37,25 @@ const App = ({ getDrawings }) => {
           </Page>
         )}
       />
+        )}
+      {loading && (
+          <Page>
+            <div>Chargement des illustrations ...</div>
+          </Page>
+      )}
+      {error && (
+        <Page>
+          <div>Ooops ... Une erreur est survenue. Veuillez réessayer plus tard.</div>
+        </Page>
+      )}
     </div>
   );
 };
 
 App.propTypes = {
   getDrawings: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
+  error: PropTypes.bool.isRequired,
 };
 
 export default App;
