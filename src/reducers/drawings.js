@@ -1,12 +1,17 @@
-import drawings from 'src/data';
+import { SAVE_DRAWINGS } from 'src/actions';
 
 const initialState = {
-  list: drawings,
+  list: [],
 };
 
 export default (state = initialState, action = {}) => {
   switch (action.type) {
+    case SAVE_DRAWINGS:
+      return {
+        ...state,
+        list: action.drawings,
+      };
     default:
       return state;
   }
-}
+};

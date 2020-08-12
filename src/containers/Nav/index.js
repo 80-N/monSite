@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Nav from 'src/components/Nav';
 
 const mapStateToProps = (state) => ({
-  recipes: state.recipes.list,
+  drawings: state.drawings.list,
 });
 
 const mapDispatchToProps = {};

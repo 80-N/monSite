@@ -5,14 +5,14 @@ export default [
     title: 'Couverture album jeunesse',
     category: 'ILLUSTRATIONS',
     description: "Couverture de mon album jeunesse YAALOMAAG, le génie des Eaux. Ed. L'Harmattan 2012.",
-    img: 'https://photos.google.com/album/AF1QipMWdkSApNIXGYMsnKKRSFoDIw1f4bDJQ8AvFN6I/photo/AF1QipMrSjYLXgJbHajhMf17rfqkPuURsP6LZDTOfnVg',
+    img: 'https://live.staticflickr.com/65535/50217751431_cd534b11ac_b.jpg',
   },
   {
     id: 9876,
     title: 'Calao sur un papayer.',
     category: 'ILLUSTRATIONS',
     description: "Page intérieur d'un projet d'album jeunesse.",
-    img: 'https://lh3.googleusercontent.com/JZiCOjFTI6YEOudSt3meYNkIIm82NzT4uJTTOklC7p_5UIotdsbLMGVgszAYwftuoUlCiyQw1qE2Jbuj0bDyhILtC40fgmpbQOCVeJd6fxjwQV9HU_hArpA3uDLHLN5MHRNHtM5hiC_DJN-h-8AX8gjrNCEfoRFGBUd8b_K3nC8svkjkU2IVRZvvh9tPfKJwfznSb0i_VmaoFQOkvLzUr_TdTZuwJQzjxk0n5GfHiN95AMhRILccDb-MwLJWmjgamWnEJ_KRw0egB5kJpphrab6EC1pkqmkjNGNk02WPUEwErHPUb5_zcYqBN2Y9C7KJLAx17URU5CQHHJwuk-DZdi8OuqkrTTeKzGkbi79dv4ZopncOrGjWrmC2eCaWqilSxJWUAD4psm17Jr_04j58k_mGdgVARgW8fovkNHpyBYLE_2TBj6Sefx1MhrsYscNk0wY8n4c2ieTeHqLR_TpkV3q3-PFKWtbgGS2tGR_ysDrLpD-iqOZvo3rKfsEjytQgRRRqB43dwdzNeb5gq83IXdo1dN00MFs6EdPlGkVMEQImbWAZBwB0gs0ir48U6944g7N8ZJ_LLnftSzS8XeGomcAFoKneGL9toRcBK7hBDT0iJNdG5vX63Shd9TQDU36jTUUTvooBSnqEhE8VTontRuvMPnHcxJNwg-1P_Xwi6W_Gp_WGrFEoXc9RApEn=w525-h350-no?authuser=0',
+    img: 'https://live.staticflickr.com/65535/50218631772_773e250e98_b.jpg',
   },
   {
     id: 1345,

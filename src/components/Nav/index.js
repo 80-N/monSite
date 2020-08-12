@@ -18,7 +18,7 @@ const Nav = ({ drawings }) => (
     </NavLink>
     {drawings.map(({ id, title }) => (
       <NavLink
-      key={id} 
+      key={id}
       className="menu__link"
         to={`/drawing/${getSlugFromTitle(title, { lower: true })}`}
         activeClassName="menu__link--active"

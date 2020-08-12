@@ -8,3 +8,17 @@ export const increment = () => ({
 export const decrement = () => ({
   type: DECREMENT_COUNTER,
 });
+
+// Action types
+export const GET_DRAWINGS = 'GET_DRAWINGS';
+export const SAVE_DRAWINGS = 'SAVE_DRAWINGS';
+
+// Action creators
+export const getDrawings = () => ({
+  type: GET_DRAWINGS,
+});
+
+export const saveDrawings = (drawings) => ({
+  type: SAVE_DRAWINGS,
+  drawings,
+});

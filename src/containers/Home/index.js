@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Home from 'src/components/Home';
 
 const mapStateToProps = (state) => ({
-  recipes: state.recipes.list,
+  drawings: state.drawings.list,
 });
 
 const mapDispatchToProps = {};

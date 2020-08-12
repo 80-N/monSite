@@ -6,7 +6,7 @@ import './styles.scss';
 
 const Home = ({ drawings }) => (
   <div className="home">
-    <h2 className="home__title">Bienvenue sur ma page d'illustrations'</h2>
+    <h2 className="home__title">ILLUSTRATIONS</h2>
     <div className="home__content">
       {drawings.map((drawing) => (
         <Card key={drawing.id} {...drawing} />
