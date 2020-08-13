@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GET_DRAWINGS, saveDrawings } from 'src/actions';
+import { GET_DRAWINGS, saveDrawings, setError } from 'src/actions';
 
 export default (store) => (next) => (action) => {
   console.log('Middleware drawing');
@@ -13,7 +13,11 @@ export default (store) => (next) => (action) => {
 
           store.dispatch(saveDrawings(response.data));
         })
-        .catch((error) => console.log('Une erreur est survenue.', error));
+        .catch((error) => {
+          const actionToDispatch = setError();
+          store.dispatch(actionToDispatch);
+          console.log('Une erreur est survenue.', error);
+        });
 
       break;
     default:

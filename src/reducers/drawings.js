@@ -1,4 +1,4 @@
-import { SAVE_DRAWINGS } from 'src/actions';
+import { SAVE_DRAWINGS, SET_ERROR } from 'src/actions';
 
 const initialState = {
   list: [],
@@ -13,6 +13,12 @@ export default (state = initialState, action = {}) => {
         ...state,
         loading: false,
         list: action.drawings,
+      };
+    case SET_ERROR:
+      return {
+        ...state,
+        loading: false,
+        error: true,
       };
     default:
       return state;

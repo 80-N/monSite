@@ -27,7 +27,7 @@ const App = ({ getDrawings, loading, error }) => {
           <Home />
         </Page>
         </Route>
-        {!loading && (
+        {!loading && !error && (
       <Route
         exact
         path="/drawing/:slug"
@@ -38,7 +38,7 @@ const App = ({ getDrawings, loading, error }) => {
         )}
       />
         )}
-      {loading && (
+      {loading && !error && (
           <Page>
             <div>Chargement des illustrations ...</div>
           </Page>
