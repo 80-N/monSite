@@ -1,3 +1,4 @@
+/* eslint-disable padded-blocks */
 /* eslint-disable react/jsx-indent */
 /* eslint-disable react/jsx-closing-tag-location */
 // == Import npm
@@ -14,10 +15,19 @@ import Drawing from 'src/containers/Drawing';
 import './styles.css';
 
 // == Composant
-const App = ({ getDrawings, loading, error }) => {
+const App = ({
+  getDrawings,
+  loading,
+  error,
+  checkIsLogged,
+}) => {
+
   useEffect(() => {
     getDrawings();
   }, []);
+
+  // Pour vérifier la connexion du user
+  useEffect(checkIsLogged, []);
 
   return (
     <div className="app">
@@ -56,6 +66,7 @@ App.propTypes = {
   getDrawings: PropTypes.func.isRequired,
   loading: PropTypes.bool.isRequired,
   error: PropTypes.bool.isRequired,
+  checkIsLogged: PropTypes.func.isRequired,
 };
 
 export default App;

@@ -1,10 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// eslint-disable-next-line import/no-unresolved
+import LoginForm from 'src/containers/LoginForm';
 
 import './styles.scss';
 
 const Title = () => (
-  <h1 className="title">Mon portfolio</h1>
+  <div className="title">
+    <h1>Mon portfolio</h1>
+    <LoginForm />
+  </div>
 );
 
 export default Title;

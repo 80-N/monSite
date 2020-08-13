@@ -4,7 +4,7 @@ import Card from 'src/components/Card';
 
 import './styles.scss';
 
-const Home = ({ drawings }) => (
+const Home = ({ drawings, title }) => (
   <div className="home">
     <h2 className="home__title">ILLUSTRATIONS</h2>
     <div className="home__content">
@@ -21,6 +21,7 @@ Home.propTypes = {
       id: PropTypes.number.isRequired,
     }),
   ).isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Home;

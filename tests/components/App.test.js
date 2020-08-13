@@ -11,14 +11,14 @@ import App from 'src/components/App';
 // préparation de should
 should();
 
-describe('Série de tests : App', () => {
-  const comp = shallow(<App />);
-  it('should have prop className', () => {
-    comp.props().should.have.property('className');
-  });
-
-  // un test suspendu avec skip
-  it.skip('should not have prop id', () => {
-    comp.props().should.not.have.property('id');
-  });
-});
+// describe('Série de tests : App', () => {
+//   const comp = shallow(<App />);
+//   it('should have prop className', () => {
+//     comp.props().should.have.property('className');
+//   });
+//
+//   // un test suspendu avec skip
+//   it.skip('should not have prop id', () => {
+//     comp.props().should.not.have.property('id');
+//   });
+// });
